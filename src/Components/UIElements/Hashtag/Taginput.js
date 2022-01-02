@@ -35,7 +35,7 @@ const Taginput = () => {
                 }
                 {
                     data ? (data.Tweets ? data.Tweets.tweets.map((tweet, index) => {
-                        if (index >= 5) {
+                        if (index >= 20){
                             return
                         }
 
